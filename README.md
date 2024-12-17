@@ -1,5 +1,5 @@
 
-# Payment Processing Service with RabbitMQ 
+# 4458 - Payment Processing Service Documantation
 
 ## Overview  
 This project uses Node.js for the REST APIs and RabbitMQ as the message queue to construct a **three-step payment processing structure**.   It shows how scalable and effective services may be achieved through the use of asynchronous message-based communication.
