@@ -17,7 +17,6 @@ async function startPaymentProcessor() {
       const paymentData = JSON.parse(message.content.toString());
       console.log('Processing payment:', paymentData);
 
-      // Simulate sending to notification queue
       const notificationPayload = {
         user: paymentData.user,
         message: 'Your payment has been received',
